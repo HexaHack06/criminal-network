@@ -65,6 +65,7 @@ export const PriorityBadge: React.FC<PriorityBadgeProps> = ({ priority, size = '
 
 interface EntityTypeBadgeProps {
   type: string;
+  size?: string;
 }
 
 export const EntityTypeBadge: React.FC<EntityTypeBadgeProps> = ({ type }) => {
